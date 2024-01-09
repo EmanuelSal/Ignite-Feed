@@ -1,5 +1,5 @@
 # Ignite Feed
-projeto ReactJS utilizando o Vite
+Projeto ReactJS utilizando o Vite
 
 # React + Vite
 
