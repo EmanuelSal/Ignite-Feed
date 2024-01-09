@@ -1,5 +1,5 @@
 # Ignite Feed
-Projeto ReactJS utilizando o Vite
+Projeto programa Ignite - Rocketseat com ReactJS utilizando o Vite
 
 # React + Vite
 
