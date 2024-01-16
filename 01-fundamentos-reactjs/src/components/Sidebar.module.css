@@ -1,7 +1,7 @@
 .sidebar {
     background: var(--gray-800);
     border-radius: 8px;
-    overflow: hidden;
+    overflow: hidden; /* faz com que o conteúdo não ultrapasse o tamanho do elemento */
   }
   
 .cover {
@@ -17,12 +17,24 @@
   
     margin-top: calc(0px - 1.5rem - 6px);
   }
+
+.profile strong {
+    margin-top: 1rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
+.profile span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+    line-height: 1.6;
+}
   
 .avatar {
     width: calc(3rem + 12px);
     height:calc(3rem + 12px);
     border-radius: 8px;
-    border: 4px solid var(--gray-800);
+    border: 4px solid var(--gray-800); /* borda do avatar */
     outline: 2px solid var(--green-500 ); /* outline é a borda que fica por fora do elemento */
 }
   
@@ -39,8 +51,8 @@
     border: 1px solid var(--green-500);
     border-radius: 8px;
     height: 50px;
-    padding: 0 1.5rem;
-    font-weight: bold;
+    padding: 0 1.5rem; /* 0 em cima e em baixo e 1.5rem nas laterais */
+    font-weight: bold; /* negrito */
     display: block;
     text-decoration: none; /* tira o underline */
   
@@ -52,4 +64,12 @@
   
     transition: color 0.1s, background-color 0.1s; /* faz com que a transição seja mais suave */
   }
+
+.sidebar footer a:hover {
+    background: var(--green-500);
+    color: var(--white);
+
+  }
+
+
   

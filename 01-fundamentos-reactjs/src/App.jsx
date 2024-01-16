@@ -1,13 +1,13 @@
 // jsx = javascript + xml
 
-import {Post} from "./Post"
+import {Post} from "./components/Post"
 import { Header } from "./components/Header"
+import { Sidebar } from "./components/Sidebar";
 // isso significa que estamos importando o React da biblioteca react
 
 import styles from "./App.module.css";
 
 import "./global.css"
-import { Sidebar } from "./components/Sidebar";
 
 function App() {
   return (
