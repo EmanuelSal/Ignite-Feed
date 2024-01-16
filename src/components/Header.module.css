@@ -1,0 +1,13 @@
+.header {
+    background: var(--gray-800); /* cor de fundo */
+    display: flex; /* faz com que os elementos fiquem lado a lado */
+    justify-content: center; /* alinha horizontalmente */
+    padding: 1.25rem 0; /* 20px */
+
+}
+
+.header img {
+    height: 2rem; /* largura */
+
+    
+}
