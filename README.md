@@ -1,5 +1,6 @@
 # Ignite Feed
 Projeto programa Ignite - Rocketseat com ReactJS utilizando o Vite
+
 *IMPORTANTE: PARA ABRIR O PROJETO, NECESSITA DOS MÓDULOS REACT BAIXADOS*
 
 # React + Vite
